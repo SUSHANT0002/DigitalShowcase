@@ -57,26 +57,26 @@ const Hero: React.FC = () => {
                 <a href="#projects" className="button-primary">
                   View Projects <ArrowRight size={16} className="ml-2" />
                 </a>
-                <a href="/resume.pdf" className="button-outline" download>
+                <a href='../../Public/Sushant_Mahadwad_Resume.pdf'  className="button-outline" download>
                   <Download size={16} className="mr-2" /> Resume
                 </a>
               </div>
               
               <div className="flex gap-5 mt-8 animate-fade-in animate-delay-500">
                 <a 
-                  href="https://github.com" 
+                  href="https://github.com/SUSHANT0002" 
                   target="_blank" 
                   rel="noopener noreferrer"
-                  className="p-2.5 rounded-full hover:bg-secondary transition-colors duration-200"
+                  className="p-3 bg-primary/10 rounded-full text-primary hover:bg-primary hover:text-primary-foreground transition-colors"
                   aria-label="GitHub"
                 >
                   <Github size={20} />
                 </a>
                 <a 
-                  href="https://linkedin.com" 
+                  href="https://www.linkedin.com/in/sushant-mahadwad-67bb26220" 
                   target="_blank" 
                   rel="noopener noreferrer"
-                  className="p-2.5 rounded-full hover:bg-secondary transition-colors duration-200"
+                  className="p-3 bg-primary/10 rounded-full text-primary hover:bg-primary hover:text-primary-foreground transition-colors"
                   aria-label="LinkedIn"
                 >
                   <Linkedin size={20} />

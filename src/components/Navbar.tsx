@@ -65,7 +65,7 @@ const Navbar: React.FC = () => {
               </a>
             ))}
             <a 
-              href="/resume.pdf" 
+              href="../../Public/Sushant_Mahadwad_Resume.pdf" 
               target="_blank" 
               rel="noopener noreferrer" 
               className="button-outline"
@@ -100,7 +100,7 @@ const Navbar: React.FC = () => {
               </a>
             ))}
             <a 
-              href="/resume.pdf" 
+              href='../../Public/Sushant_Mahadwad_Resume.pdf' 
               target="_blank" 
               rel="noopener noreferrer" 
               className="button-primary"
