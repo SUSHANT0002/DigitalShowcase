@@ -67,16 +67,16 @@ const Hero: React.FC = () => {
                   href="https://github.com/SUSHANT0002" 
                   target="_blank" 
                   rel="noopener noreferrer"
-                  className="p-3 bg-primary/10 rounded-full text-primary hover:bg-primary hover:text-primary-foreground transition-colors"
+                  className="p-2.5 rounded-full hover:bg-secondary transition-colors duration-200"
                   aria-label="GitHub"
                 >
                   <Github size={20} />
                 </a>
                 <a 
-                  href="https://www.linkedin.com/in/sushant-mahadwad-67bb26220" 
+                  href="https://www.linkedin.com/in/sushant-mahadwad-67bb26220/" 
                   target="_blank" 
                   rel="noopener noreferrer"
-                  className="p-3 bg-primary/10 rounded-full text-primary hover:bg-primary hover:text-primary-foreground transition-colors"
+                  className="p-2.5 rounded-full hover:bg-secondary transition-colors duration-200"
                   aria-label="LinkedIn"
                 >
                   <Linkedin size={20} />
@@ -89,7 +89,7 @@ const Hero: React.FC = () => {
             <div className="relative h-[350px] md:h-[450px] w-full transition-transform duration-300">
               <div className="glass-card absolute inset-0 rounded-2xl overflow-hidden p-4 transition-all duration-300">
                 <img 
-                  src="/profile.jpg" 
+                  src="../../Public/image.jfif" 
                   alt="Sushant Dhondiba Mahadwad" 
                   className="w-full h-full object-cover rounded-xl"
                 />

@@ -1,4 +1,3 @@
-
 import React, { useState } from 'react';
 import { Send, Mail, Phone, MapPin } from 'lucide-react';
 import { toast } from "@/components/ui/use-toast";
@@ -128,7 +127,7 @@ const Contact: React.FC = () => {
                       href="mailto:sushant@example.com" 
                       className="text-muted-foreground hover:text-primary transition-colors"
                     >
-                      sushant.mahadwad@gmail.com
+                      sushant@example.com
                     </a>
                   </div>
                 </div>
@@ -143,7 +142,7 @@ const Contact: React.FC = () => {
                       href="tel:+1234567890" 
                       className="text-muted-foreground hover:text-primary transition-colors"
                     >
-                      +91-9284-043-586
+                      +1 (234) 567-890
                     </a>
                   </div>
                 </div>
@@ -155,7 +154,7 @@ const Contact: React.FC = () => {
                   <div>
                     <h4 className="font-medium">Location</h4>
                     <p className="text-muted-foreground">
-                      
+                      San Francisco, California
                     </p>
                   </div>
                 </div>
@@ -165,7 +164,7 @@ const Contact: React.FC = () => {
                 <h4 className="font-medium mb-4">Connect with me</h4>
                 <div className="flex gap-4">
                   <a 
-                    href="https://github.com/SUSHANT0002" 
+                    href="https://github.com" 
                     target="_blank" 
                     rel="noopener noreferrer"
                     className="p-3 bg-primary/10 rounded-full text-primary hover:bg-primary hover:text-primary-foreground transition-colors"
@@ -174,7 +173,7 @@ const Contact: React.FC = () => {
                     <Github size={20} />
                   </a>
                   <a 
-                    href="https://www.linkedin.com/in/sushant-mahadwad-67bb26220" 
+                    href="https://linkedin.com" 
                     target="_blank" 
                     rel="noopener noreferrer"
                     className="p-3 bg-primary/10 rounded-full text-primary hover:bg-primary hover:text-primary-foreground transition-colors"

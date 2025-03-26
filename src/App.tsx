@@ -6,6 +6,8 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Index from "./Pages/Index";
 import NotFound from "./Pages/NotFound";
 import "./App.css";
+import '@fortawesome/fontawesome-svg-core/styles.css';
+
 
 const queryClient = new QueryClient();
 
